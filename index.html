@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="2; url=simulation.html">
+    <title>Lexical Analyzer</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #020617, #0f172a, #1e293b);
+            color: #e2e8f0;
+        }
+
+        .box {
+            text-align: center;
+            padding: 40px;
+            border-radius: 16px;
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+
+        .loader {
+            margin: 20px auto;
+            width: 45px;
+            height: 45px;
+            border: 5px solid #1e293b;
+            border-top: 5px solid #38bdf8;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>⚙ Lexical Analyzer</h1>
+        <p>Loading simulation...</p>
+        <div class="loader"></div>
+        <p>If not redirected, <a href="simulation.html">click here</a></p>
+    </div>
+</body>
+</html>
